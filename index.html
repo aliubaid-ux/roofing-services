@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Roofing Services in Your City | Apex Roofing Solutions</title>
+    <meta name="description" content="Apex Roofing Solutions offers top-tier residential and commercial roofing services in Your City. Expert installation, repairs, and maintenance with 25+ years of experience. Free estimates!">
+    <meta name="keywords" content="roofing, roof repair, roof installation, roof maintenance, Your City roofing, commercial roofing, residential roofing, shingle roofing, metal roofing, flat roofing">
+    <meta name="author" content="Apex Roofing Solutions">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.apexroofingsolutions.com">
+    <meta property="og:title" content="Premier Roofing Services in Your City | Apex Roofing Solutions">
+    <meta property="og:description" content="Top-tier roofing services in Your City. Expert installation, repairs, and maintenance with 25+ years of experience. Get your free estimate today!">
+    <meta property="og:image" content="https://www.apexroofingsolutions.com/images/og-image.jpg">
+    <meta property="og:url" content="https://www.apexroofingsolutions.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #e74c3c;
+            --accent-color: #3498db;
+            --light-color: #ecf0f1;
+            --dark-color: #34495e;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: var(--accent-color);
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1, h2, h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('roofing-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+        }
+        .hero-content {
+            background-color: rgba(44, 62, 80, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+        .hero h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #c0392b;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .service-item {
+            flex-basis: calc(33.333% - 20px);
+            background-color: var(--light-color);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+        .testimonials {
+            background-color: var(--light-color);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .testimonial-item {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        form label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #c0392b;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+            .service-item {
+                flex-basis: 100%;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Expert Roofing Services in Your City</h1>
+                <p>Protect your home with our top-quality roofing solutions. 25+ years of excellence.</p>
+                <a href="#contact" class="cta-button">Get a Free Estimate</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Roofing Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>Residential Roof Installation</h3>
+                    <p>Professional installation of various roofing materials for homes, including shingles, metal, and tile. We use only the highest quality materials to ensure longevity and durability.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Commercial Roofing</h3>
+                    <p>Specialized roofing solutions for businesses and commercial properties. From flat roofs to large-scale industrial projects, we've got you covered.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Roof Repair & Maintenance</h3>
+                    <p>Quick and reliable repairs for all types of roof damage. Our comprehensive maintenance programs help prevent costly repairs and extend your roof's lifespan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Apex Roofing Solutions</h2>
+            <p>With over 25 years of experience, Apex Roofing Solutions has been the trusted roofing company for homeowners and businesses in Your City and surrounding areas. Our commitment to quality craftsmanship, customer satisfaction, and use of premium materials sets us apart in the industry.</p>
+            <p>Our team of certified and experienced roofers is dedicated to providing you with the best roofing solutions tailored to your specific needs and budget. We pride ourselves on our attention to detail, timely project completion, and clean job sites.</p>
+            <ul>
+                <li>Licensed and insured</li>
+                <li>GAF Master Elite Contractor</li>
+                <li>BBB A+ Rating</li>
+                <li>24/7 Emergency Services</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Our Work</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="project1.jpg" alt="Residential shingle roof installation"></div>
+                <div class="gallery-item"><img src="project2.jpg" alt="Commercial flat roofing project"></div>
+                <div class="gallery-item"><img src="project3.jpg" alt="Metal roof repair"></div>
+                <div class="gallery-item"><img src="project4.jpg" alt="Tile roofing installation"></div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-item">
+                <p>"Apex Roofing Solutions did an outstanding job on our new roof. Professional, punctual, and clean. Highly recommend!"</p>
+                <p>- John D., Homeowner</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"We've used Apex for all our commercial properties. Their work is top-notch, and their team is always responsive."</p>
+                <p>- Sarah M., Property Manager</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to start your roofing project? Get in touch with us for a free consultation and quote.</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Apex Roofing Solutions. All rights reserved.</p>
+        <p>123 Main St, Your City, State 12345 | Phone: (555) 123-4567 | Email: info@apexroofingsolutions.com</p>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RoofingContractor",
+      "name": "Apex Roofing Solutions",
+      "image": "https://www.apexroofingsolutions.com/images/logo.jpg",
+      "@id": "https://www.apexroofingsolutions.com",
+      "url": "https://www.apexroofingsolutions.com",
+      "telephone": "(555) 123-4567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "Your City",
+        "addressRegion": "State",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/apexroofingsolutions",
+        "https://www.instagram.com/apexroofingsolutions",
+        "https://www.linkedin.com/company/apexroofingsolutions"
+      ]
+    }
+    </script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Here you would typically send the form data to a server
+            alert('Thank you for your message. We will get back to you soon!');
+            this.reset();
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
